@@ -36,7 +36,7 @@ FastDup data analysis, can include:
 ![image](https://github.com/user-attachments/assets/a53a057f-db20-4a42-a2ef-b04acef5fcfd)
 
 
-# Applying FstDup on RAVIR
+# Applying FastDup on RAVIR
 * Identifying duplicates and near-duplicates:
 The command used for getting the above information is: 
 fd.similarity()
@@ -78,5 +78,12 @@ Using the following command, with a threshold input we can filter blurred images
 stats_df = fd.img_stats()
 Since the veins and arteries can be very thin and hard to detect, the shrapness (or blurriness) of the images is so important.
 
-# An innovative feature - image quality improvement 
+# An innovative feature - Image quality improvement 
+Using the abilities of FastDup, we can easliy detect blurred images. My innovative feature uses this information, and improve the blurry images quality, using classical image processing methods - Unsharp Masking (USM) which involves subtracting a blurred version of the image from the original image.
 
+We can see the following results of the blurry image improvement:
+![image](https://github.com/user-attachments/assets/e0be2655-750a-4404-9800-1708d561dd90)
+
+# Conclusion
+Using FastDup on RAVIR dataset, showed (easily) some low-quality (blurred) images which can make the classification task between veins and arteries very hard.
+My innovative application, improves images quality and hopefully results in improving the classification task.
