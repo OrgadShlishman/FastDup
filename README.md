@@ -15,7 +15,7 @@ Veins and arteries, can help with early diagnosis which can be very important is
 The main purpose of RAVIR dataset, is performing classification between veins and arteries, which can lead to better diagnosis. The classification is done as semantic segmentation.
 ![image](https://github.com/user-attachments/assets/42729cb0-273b-4c28-beea-08898d40dce0)
 
-# FastDUP features
+# FastDup features
 Semantic segmentation of the retina, between veins and arteries is a challenging task, so the better the images' quality, the results of the task should be better.
 Using FastDup, we can easily examine our dataset and get important information about it. 
 FastDup data analysis, can include: 
@@ -83,6 +83,10 @@ Using the abilities of FastDup, we can easliy detect blurred images. My innovati
 
 We can see the following results of the blurry image improvement:
 ![image](https://github.com/user-attachments/assets/e0be2655-750a-4404-9800-1708d561dd90)
+
+Another example of image sharpening (for an image that was classified as outlier):
+![image](https://github.com/user-attachments/assets/5dc8c3ed-c75c-49d0-a41c-7733f8f42b09)
+
 
 # Conclusion
 Using FastDup on RAVIR dataset, showed (easily) some low-quality (blurred) images which can make the classification task between veins and arteries very hard.
