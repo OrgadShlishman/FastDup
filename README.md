@@ -87,6 +87,12 @@ We can see the following results of the blurry image improvement:
 Another example of image sharpening (for an image that was classified as outlier):
 ![image](https://github.com/user-attachments/assets/5dc8c3ed-c75c-49d0-a41c-7733f8f42b09)
 
+Using the improving image application, will be as follows:
+1. Get a list of blurred images.
+2. Call the "sharpen_image" function, with blurred image path, and output folder path
+3. In the output folder path, one can find the sharpened images.
+
+
 
 # Conclusion
 Using FastDup on RAVIR dataset, showed (easily) some low-quality (blurred) images which can make the classification task between veins and arteries very hard.
