@@ -164,7 +164,7 @@ FastDup is a powerful tool for dataset analysis. It allows to easily better unde
 For RAVIR dataset, the most important thing is the percision and high quality of the image, hence, filter low quality images and improving them using the new innovative feature, could ease and optimize results for veins and arteries semantic segmentation in the retina.
 
 Related Links:
-1. Jupyter notebook summary: 
+1. Jupyter notebook summary: https://github.com/OrgadShlishman/FastDup/blob/main/Fastdup.ipynb
 2. RAVIR dataset: https://drive.google.com/file/d/1ZlZoSStvE9VCRq3bJiGhQH931EF0h3hh/view
 3. RAVIR paper: https://arxiv.org/abs/2203.14928
 4. Fastdup code: https://github.com/visual-layer/fastdup?tab=readme-ov-file
