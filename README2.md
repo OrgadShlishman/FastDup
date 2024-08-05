@@ -127,14 +127,17 @@ For this task, the idea is using fastdup abilities to filter the low quality ima
 
 ![image](https://github.com/user-attachments/assets/b305145a-25f3-4c43-b98d-00841e125efb)
 
-* Step 4 is optional.
+*Step 4 is optional.
 
 After filtering the low quality images, we would like to improve their quality. We will do so by using a classical algorithm called Unsharp Mask. The idea is to enhance high frequencies of the image.
 It is done by blurring the input image using Gaussian kernel, and then subtract the blurred output of the Gaussian. the result will be an image with high frequencies (usually edges in high resolution details, which will add up to the original image, resulting in better quality and sharper image.
 
 
+
 Examples:
+
 ![image](https://github.com/user-attachments/assets/ba0696bd-02d3-4ef8-83ac-09e8f1846e65)
+
 
 The improved feature is defined in a class called *"ImproveImage"*. It can get one image or a list of images and for eahc type of the inputs, it can generate preview or save the image (or images if we have a list of images).
 
