@@ -146,16 +146,18 @@ The improved feature is defined in a class called *"ImproveImage"*. It can get o
 
 Usage Example:
 *For a single image*
-'''
+```
 improve_image_single = ImproveImage(input_image_path, output_directory)
 improve_image_single.preview()
 improve_image_single.save()
+```
 
 *For multiple images*
+```
 improve_image_multiple = ImproveImage(list_of_input_images_path, output_directory)
 improve_image_multiple.preview()
 improve_image_multiple.save()
-'''
+```
 
 # Conclusion
 FastDup is a powerful tool for dataset analysis. It allows to easily better understand, sort and work with datasets.
