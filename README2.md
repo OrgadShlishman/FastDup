@@ -122,8 +122,9 @@ fd.vis.outliers_gallery()
 
 
 # Innovative application
-My idea for improving the semantic segmentation task on RAVIR, is the make sure we are using high quality to improve the results.
+My idea for improving the semantic segmentation task on RAVIR, is to make sure we are using high quality to improve the results.
 For this task, the idea is using fastdup abilities to filter the low quality images (For example, blurred images and outliers) and then, improve them using image processing and computer vision tools.
+After improving the images, when can decide if he wants to update the dataset with them or not.
 
 ![image](https://github.com/user-attachments/assets/b305145a-25f3-4c43-b98d-00841e125efb)
 
