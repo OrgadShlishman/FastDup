@@ -125,17 +125,19 @@ fd.vis.outliers_gallery()
 My idea for improving the semantic segmentation task on RAVIR, is the make sure we are using high quality to improve the results.
 For this task, the idea is using fastdup abilities to filter the low quality images (For example, blurred images and outliers) and then, improve them using image processing and computer vision tools.
 
-![image](https://github.com/user-attachments/assets/56c5c101-235a-4bbd-a31c-605c28afada6)
+![image](https://github.com/user-attachments/assets/b305145a-25f3-4c43-b98d-00841e125efb)
 
 * Step 4 is optional.
 
 After filtering the low quality images, we would like to improve their quality. We will do so by using a classical algorithm called Unsharp Mask. The idea is to enhance high frequencies of the image.
 It is done by blurring the input image using Gaussian kernel, and then subtract the blurred output of the Gaussian. the result will be an image with high frequencies (usually edges in high resolution details, which will add up to the original image, resulting in better quality and sharper image.
 
+
 Examples:
 ![image](https://github.com/user-attachments/assets/ba0696bd-02d3-4ef8-83ac-09e8f1846e65)
 
 The improved feature is defined in a class called *"ImproveImage"*. It can get one image or a list of images and for eahc type of the inputs, it can generate preview or save the image (or images if we have a list of images).
+
 
 Usage Example:
 *For a single image*
@@ -151,3 +153,9 @@ improve_image_multiple.save()
 # Conclusion
 FastDup is a powerful tool for dataset analysis. It allows to easily better understand, sort and work with datasets.
 For RAVIR dataset, the most important thing is the percision and high quality of the image, hence, filter low quality images and improving them using the new innovative feature, could ease and optimize results for veins and arteries semantic segmentation in the retina.
+
+Related Links:
+1. Jupyter notebook summary: 
+2. RAVIR dataset: https://drive.google.com/file/d/1ZlZoSStvE9VCRq3bJiGhQH931EF0h3hh/view
+3. RAVIR paper: https://arxiv.org/abs/2203.14928
+4. Fastdup code: https://github.com/visual-layer/fastdup?tab=readme-ov-file
