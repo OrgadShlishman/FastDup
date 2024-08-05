@@ -126,7 +126,8 @@ My idea for improving the semantic segmentation task on RAVIR, is to make sure w
 For this task, the idea is using fastdup abilities to filter the low quality images (For example, blurred images and outliers) and then, improve them using image processing and computer vision tools.
 After improving the images, when can decide if he wants to update the dataset with them or not.
 
-![image](https://github.com/user-attachments/assets/b305145a-25f3-4c43-b98d-00841e125efb)
+![image](https://github.com/user-attachments/assets/48b900a8-c30e-4cc0-a4a5-510ebf4ece7a)
+
 
 *Step 4 is optional.
 
